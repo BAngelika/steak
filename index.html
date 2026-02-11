@@ -147,31 +147,64 @@
                     <input type="number" name="it_slow_ratio" id="it_slow_ratio" min="1" step="any"
                         style="margin-top: 10px"><br>
                 </div>
+
                 <div class="col-lg-4">
+
+
+                <p class="d-inline-flex gap-1">
+
                     <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                        Ágyúk:
+                        
+                    <h2 onclick="">Ágyúk:</h2>
+                        
                     </button>
-                    <div id="canon_options" class="collapse">
-                        <div class="card card-body">
-                            <label for="ca_health">Élet:</label>
-                            <input type="number" name="ca_health" id="ca_health" min="1" step="any"><br>
-                            <label for="ca_count_init">Kezdeti ágyúk száma:</label>
-                            <input type="number" name="ca_count_init" id="ca_count_init" min="0"><br>
-                            <label for="ca_count_max">Maximális ágyúk száma:</label>
-                            <input type="number" name="ca_count_max" id="ca_count_max" min="0"><br>
-                            <label for="ca_spawn_time_max">Új ágyú megjelenése:</label><br>
-                            <label for="ca_spawn_time_min" class="behuzott">Minimum (mp-ben) -</label>
-                            <input type="number" name="ca_spawn_time_min" id="ca_spawn_time_min" min="0" step="any"><br>
-                            <label for="ca_spawn_time_max" class="behuzott">Maximum (mp-ben) -</label>
-                            <input type="number" name="ca_spawn_time_max" id="ca_spawn_time_max" min="0" step="any"><br>
-                            <label for="ca_accel">Gyorsulás mértéke:</label>
-                            <input type="number" name="ca_accel" id="ca_accel" min="1" step="any"><br>
-                            <label for="ca_speed_max">Maximális sebesség</label>
-                            <input type="number" name="ca_speed_max" id="ca_speed_max" min="1" step="any"><br>
-                        </div>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        <div id="canon_options">
+                        <label for="ca_health">Élet:</label>
+                        <input type="number" name="ca_health" id="ca_health" min="1" step="any"><br>
+                        <label for="ca_count_init">Kezdeti ágyúk száma:</label>
+                        <input type="number" name="ca_count_init" id="ca_count_init" min="0"><br>
+                        <label for="ca_count_max">Maximális ágyúk száma:</label>
+                        <input type="number" name="ca_count_max" id="ca_count_max" min="0"><br>
+                        <label for="ca_spawn_time_max">Új ágyú megjelenése:</label><br>
+                        <label for="ca_spawn_time_min" class="behuzott">Minimum (mp-ben) -</label>
+                        <input type="number" name="ca_spawn_time_min" id="ca_spawn_time_min" min="0" step="any"><br>
+                        <label for="ca_spawn_time_max" class="behuzott">Maximum (mp-ben) -</label>
+                        <input type="number" name="ca_spawn_time_max" id="ca_spawn_time_max" min="0" step="any"><br>
+                        <label for="ca_accel">Gyorsulás mértéke:</label>
+                        <input type="number" name="ca_accel" id="ca_accel" min="1" step="any"><br>
+                        <label for="ca_speed_max">Maximális sebesség</label>
+                        <input type="number" name="ca_speed_max" id="ca_speed_max" min="1" step="any"><br>
                     </div>
 
+                    </div>
+                </div>
+                </div>
+
+                <!-- 
+                <div class="col-lg-4">
+                    <h2 onclick="">Ágyúk:</h2>
+                    <div id="canon_options">
+                        <label for="ca_health">Élet:</label>
+                        <input type="number" name="ca_health" id="ca_health" min="1" step="any"><br>
+                        <label for="ca_count_init">Kezdeti ágyúk száma:</label>
+                        <input type="number" name="ca_count_init" id="ca_count_init" min="0"><br>
+                        <label for="ca_count_max">Maximális ágyúk száma:</label>
+                        <input type="number" name="ca_count_max" id="ca_count_max" min="0"><br>
+                        <label for="ca_spawn_time_max">Új ágyú megjelenése:</label><br>
+                        <label for="ca_spawn_time_min" class="behuzott">Minimum (mp-ben) -</label>
+                        <input type="number" name="ca_spawn_time_min" id="ca_spawn_time_min" min="0" step="any"><br>
+                        <label for="ca_spawn_time_max" class="behuzott">Maximum (mp-ben) -</label>
+                        <input type="number" name="ca_spawn_time_max" id="ca_spawn_time_max" min="0" step="any"><br>
+                        <label for="ca_accel">Gyorsulás mértéke:</label>
+                        <input type="number" name="ca_accel" id="ca_accel" min="1" step="any"><br>
+                        <label for="ca_speed_max">Maximális sebesség</label>
+                        <input type="number" name="ca_speed_max" id="ca_speed_max" min="1" step="any"><br>
+                    </div>
+                -->
                     <h2>Kamera: Nem Igen</h2>
                     <label for="cam_move">Kamera mozgás:</label>
 
