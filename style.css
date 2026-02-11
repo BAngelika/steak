@@ -88,3 +88,11 @@ button.preset:focus {
 #canon_options{
     display: block;
 }
+.collapse{
+    background-color: grey;
+}
+
+button{
+    background-color: grey;
+    padding-bottom: 10px;
+}
