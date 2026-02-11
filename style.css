@@ -85,3 +85,6 @@ li{
 button.preset:focus {
     background-color: #0073d1
 }
+#canon_options{
+    display: block;
+}
