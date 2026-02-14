@@ -96,3 +96,12 @@ button{
     background-color: grey;
     padding-bottom: 10px;
 }
+
+span{
+    color: white;
+}
+
+input[type="radio"]{
+    display: inline-block;
+    float: none;
+}
